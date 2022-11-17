@@ -36,6 +36,7 @@ console.log('result', result);
 
 // Задание 3
 
+
 const coffees = ["Latte", "Cappuccino", "Americano"];
 
 let favoriteCoffeeName = prompt("Поиск кофе по названию:");
