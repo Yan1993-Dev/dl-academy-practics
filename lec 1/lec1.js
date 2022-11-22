@@ -1,14 +1,14 @@
 // Задание 1
 const myName = 'name';
 const myAge = 28;
-const chikenIsFly = false;
-const yourFavoriteFilm = null;
+const isMobile = false;
+const yourFavoriteMovie = null;
 const yourCar = undefined;
 
 console.log('myName', myName, typeof myName);
 console.log('myAge', myAge, typeof myAge);
-console.log('chikenIsFly', chikenIsFly, typeof chikenIsFly);
-console.log('yourFavoriteFilm', yourFavoriteFilm, typeof yourFavoriteFilm);
+console.log('isMobile', isMobile, typeof isMobile);
+console.log('yourFavoriteMovie', yourFavoriteMovie, typeof yourFavoriteMovie);
 console.log('yourCar', yourCar, typeof yourCar);
 
 // Задание 2+3

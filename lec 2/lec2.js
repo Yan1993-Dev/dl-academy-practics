@@ -10,7 +10,7 @@ const existingUserLogin = "the_best_user";
 const existingUserPassword = "12345678";
 
 const userLogin = prompt("Введите логин")?.trim();
-const userPassword = prompt("Введите пароль")?.trim();
+const userPassword = prompt("Введите пароль");
 
 if (existingUserLogin === userLogin && existingUserPassword === userPassword) {
     alert(`Добро пожаловать, ${userLogin}!`);
@@ -22,7 +22,7 @@ if (existingUserLogin === userLogin && existingUserPassword === userPassword) {
 
 for (let i = 0; i < 3; i += 1) {
     let newStudent = prompt('Введите имя нового студента!');
-    newStudent = newStudent.trim();
+    newStudent = newStudent?.trim();
     if (newStudent) {
        alert(`Добро пожаловать, ${newStudent}!`)
     }
